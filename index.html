@@ -9,7 +9,7 @@
 
 <body>
     <form class="form-blue">
-        <p>Votre identité</p>
+        <p><span>Votre identité</span></p>
         <ol>
             <li><label for="nom">Nom</label> : <input type="text" name="nom" placeholder="Nom" /></li>
             <li><label for="prenom">Prénom</label> : <input type="text" name="prenom" placeholder="Prénom" /></li>
@@ -17,19 +17,19 @@
         </ol>
     </form>
     <form class="form-purple">
-        <p>Adresse de livraison</p>
+        <p><span>Adresse de livraison</span></p>
         <ol>
-            <li><label for="adresse">Adresse</label> : <input type="adresse" name="adresse" placeholder="Adresse" /></li>
+            <li><label for="adresse">Adresse</label> : <textarea name="adresse"></textarea></li>
             <li><label for="code postal">Code postal</label> : <input type="code postal" name="code postal" placeholder="Code postal" /></li>
             <li><label for="ville">Ville</label> : <input type="ville" name="ville" placeholder="Ville" /></li>
         </ol>
     </form>
     <form class="form-red">
-        <p>Informations de règlement</p>
+        <p><span>Informations de règlement</span></p>
         <ol>
             <li>Type de carte bancaire :</li>
-            <input type="radio" name="carte bancaire" id="VISA"/><label for="VISA">VISA</label><br />
-            <input type="radio" name="carte bancaire" id="Mastercard"/><label for="Mastercard">Mastercard</label>
+            <p><input type="radio" name="carte bancaire" id="VISA"/><label for="VISA">VISA</label></p>
+            <p><input type="radio" name="carte bancaire" id="Mastercard"/><label for="Mastercard">Mastercard</label></p>
             <li><label for="numero de carte">Numéro de carte</label> : <input type="numero de carte" name="numero de carte" placeholder="Numéro de carte" /></li>
             <li><label for="code de securité">Code de sécurité</label> : <input type="code de securité" name="code de securité" placeholder="Code de sécurité" /></li>
             <li><label for="nom du titulaire">Nom du titulaire</label> : <input type="nom du titulaire" name="nom du titulaire" placeholder="Nom du titulaire" /></li>

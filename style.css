@@ -1,9 +1,29 @@
-form.form-blue {
-    background-color:#2574a9
+form.form-blue ol, 
+form.form-blue span {
+    background-color:#2574a9;
 }
-form.form-purple {
-    background-color:#9a12b3
+form.form-purple ol, 
+form.form-purple span {
+    background-color:#9a12b3;
 }
-form.form-red {
-    background-color:#db0a5b
+form.form-red ol, 
+form.form-red span {
+    background-color:#db0a5b;
+}
+form ol {
+    padding:20px;
+    margin:0;
+    margin-top:-10px
+}
+p {
+    margin:2px 0px 0px 10px
+}
+button {
+    margin-top:3px
+}
+li {
+    margin:1px
+}
+p, li {
+    font-size:20px
 }
